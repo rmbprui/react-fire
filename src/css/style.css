@@ -1,0 +1,56 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+.title {
+  font-size: 10rem;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.value {
+  font-size: 5rem;
+}
+
+.btn {
+  font-size: 2rem;
+  border: none;
+  border-radius: 50%;
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn.minus {
+  border: 1px solid #ff3838;
+  background-color: #ff3838;
+  color: white;
+}
+
+.btn.minus:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.btn.plus {
+  border: 1px solid #60f824;
+  background-color: #60f824;
+  color: white;
+}
+
+.btn.plus:hover {
+  background-color: transparent;
+  color: black;
+}
